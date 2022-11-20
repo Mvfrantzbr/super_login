@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;1,100;1,200;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'kanit', sans-serif;
+}
+
+html,body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(blue 70%,rgb(129, 120, 252));
+}
+
+.content{
+    background-color: white;
+    min-width: 30%;
+    width: 65%;
+    padding: 5px;
+    border-radius: 15px;
+    overflow: auto;
+}
+
+h3{
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+span{
+    display: none;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+.text{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: large;
+    margin-bottom: 5px;
+}
+
+.sexualidade{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+button{
+    height: 30px;
+    font-size: 18px;
+    text-align: center; 
+    cursor: pointer;
+    background-color: rgb(54, 54, 163);
+    color:white;   
+}
+button:hover{
+    background-color: rgb(38, 38, 95);    
+}
+
+@media (max-width:480px) {
+    .sexo{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+
+    }    
+}
+
+
+
